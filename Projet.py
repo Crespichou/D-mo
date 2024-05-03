@@ -31,9 +31,3 @@ class Accel(Sensor) :
         print(f"I'm sending {self.data_type} data")
 
 
-class Heat(Sensor) :
-    def get_info(self) :
-        print(f"I'm the {self.type} sensor set up in {self.position}")
-
-    def task(self) :
-        print(f"I'm sending {self.data_type} data")
